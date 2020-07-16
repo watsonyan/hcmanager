@@ -7,6 +7,7 @@
 	<package name="default" namespace="/" extends="struts-default">
 		<action name="login" class="com.hc.actions.LoginAction">
 			<result>hello.jsp</result>
+			<result name="invalid">login.jsp</result>
 		</action>
 	</package>
 	
