@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Hello   <s:property value="username"/>
+	Hello   <s:property value="username"/><br/>
+	<s:property value="#request.name" />
 </body>
 </html>
